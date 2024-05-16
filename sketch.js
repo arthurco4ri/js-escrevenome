@@ -5,7 +5,7 @@ function setup() {
 
 function draw() {
     stroke("blue");
-    Fill("red");
+    fill("red");
 
     if(mouseIsPressed) {
         Reflect(mouseX, mouseY, 20, 35);
